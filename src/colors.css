@@ -1,0 +1,11 @@
+:root {
+  --root-color-1: #1d1d1d;
+  --root-color-2: #2c2c2c;
+  --bg-color: #857207;
+  --font-color: #d8d8d8;
+
+  @media (prefers-color-scheme: light) {
+    --bg-color: #f0cd06;
+    --font-color: #000000;
+  }
+}
